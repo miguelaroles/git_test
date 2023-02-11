@@ -1,0 +1,34 @@
+.grid-layout-container {
+    margin-top: 4em;
+}
+.grid-layout-container a:visited {
+    color: black;
+}
+.card-wrapper {
+    cursor: pointer;
+    padding: 1em;
+}
+.card-wrapper:hover {
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+.number {
+    font-weight: bold;
+    font-size: 6em;
+    color: #0d6efd;
+    display: inline-block;
+    vertical-align: top;
+}
+.card {
+    display: inline-block;
+    margin-left: 1em;
+    position: relative;
+    max-width: 80%;
+}
+.card h2 {
+    color: #000000;
+}
+.card p {
+    color: rgba(0,0,0,0.8);
+    font-style: italic;
+}
